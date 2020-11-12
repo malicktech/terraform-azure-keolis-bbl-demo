@@ -1,0 +1,7 @@
+prefix     = "mykeolisbbl"
+docker_image = "deepu105/hellojhipster"
+docker_image_tag = "latest"
+mysql_administrator_login = "myadmin"
+mysql_administrator_login_password = "H@Sh1CoR3!"
+firewall_ip_address = "83.145.85.164"
+location = "westus2"
