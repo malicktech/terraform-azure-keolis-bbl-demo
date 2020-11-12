@@ -1,15 +1,19 @@
 # Terraform keolis BBL demo
 
-Terraform configuration to deploy n-tier infra  wit webb app + database to azure 
+Terraform configuration to deploy n-tier infra (webb app + database) to azure 
 
-## Prérequis
+## Archi
+
+![graphiz graph](graph.png)
+
+## Requirements
 
 - Install terraform
 - Install Azure CLI
 
 ## cmd to build infrastructure
 
-create a `terraform.tfvars` (copy `terraform.tfvars.example`)  and set varaibles.
+create a `terraform.tfvars` (copy `terraform.tfvars.example`) and set variables.
 
 ```bash
 
@@ -30,7 +34,9 @@ terraform destroy
 
 ```
 
-after deploy : check url output and test jhipster app deployed (creds : admin/admin)
+After deployed : check url from outputs and test the app deployed (creds : admin/admin)
+
+https://${var.prefix}-example-app-service.azurewebsites.net/
 
 ## links
 
