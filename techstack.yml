@@ -1,0 +1,48 @@
+repo_name: malicktech/terraform-azure-keolis-bbl-demo
+report_id: '0989715bba846436a8b2e3023c2a39c5'
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-01T22:50:28+00:00'
+requested_by: malicktech
+provider: github
+branch: master
+detected_tools_count: 3
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/malicktech/terraform-azure-keolis-bbl-demo
+  detection_source: Repo Metadata
+- name: Terraform
+  description: Describe your complete infrastructure as code and build resources across
+    providers
+  website_url: https://www.terraform.io/
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/1276/default_2316907c4199f912e2ed79cbdb99025c9e5e2665.png
+  detection_source_url: https://github.com/malicktech/terraform-azure-keolis-bbl-demo/blob/master/infra-web-app.tf
+  detection_source: infra-web-app.tf
+  last_updated_by: Malick
+  last_updated_on: 2020-11-12 14:47:15.000000000 Z
+- name: Terraform Registry
+  description: Describe your complete infrastructure as code and build resources across
+    providers
+  website_url: https://registry.terraform.io/
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package_manager/49093/default_cdf079d244bded073d455911e6ce679abb1b77ab.png
+  detection_source_url: https://github.com/malicktech/terraform-azure-keolis-bbl-demo/blob/master/infra-web-app.tf
+  detection_source: infra-web-app.tf
+  last_updated_by: Malick
+  last_updated_on: 2020-11-12 14:47:15.000000000 Z
